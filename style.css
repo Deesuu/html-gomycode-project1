@@ -1,0 +1,23 @@
+body {
+    font-family: Roboto, system-ui, -apple-system, 'Segoe UI', sans-serif;
+    display: flex;              /* make body a flex container */
+    flex-direction: column;     /* stack sections vertically */
+    gap: 40px;                  /* space between the three main children */
+    padding: 20px;              /* page padding */
+}
+
+.navbar ul {
+display: inline; 
+/* flex-direction: row; */
+
+}
+.navbar ul li {
+    padding: 10px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
